@@ -1,0 +1,186 @@
+import type { InventoryCategory } from '../types';
+
+export const initialInventoryData: InventoryCategory[] = [
+  {
+    category: 'BEVERAGES',
+    items: [
+      { id: 1, name: 'COKE 750 ML', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 2, name: 'COKE TIN', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 3, name: 'WATER BOTTLE', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 4, name: 'SODA BOTTLE', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+    ],
+  },
+  {
+    category: 'ADD ON ITEMS',
+    items: [
+      { id: 5, name: 'BLACK OLIVES', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 6, name: 'JALAPENO PEPPER', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 7, name: 'SWEET CORN', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 8, name: 'RED PEPPERIKA', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 9, name: 'PINE APPLE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 10, name: 'BABY CORN', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 11, name: 'MUSHROOM', uom: 'KG.', opening: '', receiving: '', closing: '' },
+    ],
+  },
+  {
+    category: 'CHEESE',
+    items: [
+      { id: 12, name: 'CHEESE GO', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 13, name: 'CHEESE BLEND', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 14, name: 'WHITE PASTA DRESSING', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 15, name: 'CHEESE SLICE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+    ],
+  },
+  {
+    category: 'DOUGH AND OIL',
+    items: [
+      { id: 16, name: '7" DOUGH', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 17, name: '10" DOUGH', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 18, name: '14" DOUGH', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 19, name: 'EXTRA LARGE', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 20, name: 'MAIDA', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 21, name: 'CORN MEAL', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 22, name: 'SOP POUCH', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 23, name: 'OIL FORTUNE', uom: 'LTR.', opening: '', receiving: '', closing: '' },
+      { id: 24, name: 'G CUISINE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 25, name: '6" TORTILA', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 26, name: '8.5" TORTILA', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 27, name: '10" TORTILA', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 28, name: 'YEAST', uom: 'KG.', opening: '', receiving: '', closing: '' },
+    ],
+  },
+  {
+    category: 'DRINKS FLAVOUR',
+    items: [
+      { id: 29, name: 'BLACK CURRENT', uom: 'LTR.', opening: '', receiving: '', closing: '' },
+      { id: 30, name: 'STRAWBERRY CURRENT', uom: 'LTR.', opening: '', receiving: '', closing: '' },
+      { id: 31, name: 'VANILA SYRUP', uom: 'LTR.', opening: '', receiving: '', closing: '' },
+      { id: 32, name: 'BLUE CURACAO', uom: 'LTR.', opening: '', receiving: '', closing: '' },
+      { id: 33, name: 'MANGO CRUSH', uom: 'LTR.', opening: '', receiving: '', closing: '' },
+      { id: 34, name: 'SUGAR', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 35, name: 'STRAWBERRY SYRUP', uom: 'LTR.', opening: '', receiving: '', closing: '' },
+      { id: 36, name: 'GREEN APPLE', uom: 'LTR.', opening: '', receiving: '', closing: '' },
+      { id: 37, name: 'CHOCOLATE DRESSING', uom: 'LTR.', opening: '', receiving: '', closing: '' },
+      { id: 38, name: 'FRAPPE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 39, name: 'ICE CREAM', uom: 'LTR.', opening: '', receiving: '', closing: '' },
+      { id: 40, name: 'ICE CUBE', uom: 'PKT.', opening: '', receiving: '', closing: '' },
+    ],
+  },
+  {
+    category: 'VEGETABLES',
+    items: [
+      { id: 41, name: 'ONION', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 42, name: 'TOMATO', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 43, name: 'CAPSICUM', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 44, name: 'GARLIC', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 45, name: 'LEMON', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 46, name: 'PATTY', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 47, name: 'ALLO TIKKI', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 48, name: 'PANEER TIKKI', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 49, name: 'SOYA TIKKI', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 50, name: 'FRISE 9MM', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 51, name: 'SOYA', uom: 'KG.', opening: '', receiving: '', closing: '' },
+    ],
+  },
+  {
+    category: 'PIZZA SAUCE & KETCHUP',
+    items: [
+      { id: 52, name: 'TANDOORI SAUCE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 53, name: 'TORNADO BLEND', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 54, name: 'PIZZA PASTA SAUCE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 55, name: 'MAKHINI SAUCE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 56, name: 'CHIPOTLE SAUCE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 57, name: 'SNACK DRESSING', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 58, name: 'TOMATO KETCHUP', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 59, name: 'HARISHA SOUCE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 60, name: 'MINT MAYO', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 61, name: 'THAUSAND SAUCE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 62, name: 'MAYONNIES', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 63, name: 'CHILLY GARLICE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 64, name: 'PERI PERI SAUCE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+    ],
+  },
+  {
+    category: 'SEASONING',
+    items: [
+      { id: 65, name: 'OREGANO SACHETS', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 66, name: 'CHILLI SACHETS', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 67, name: 'PIZZA PASTA MIX 1 KG', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 68, name: 'CHILLI 1 KG', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 69, name: 'GARLIC POWDER', uom: 'KG.', opening: '', receiving: '', closing: '' },
+      { id: 70, name: 'PIRI PIRI SEASONING', uom: 'KG.', opening: '', receiving: '', closing: '' },
+    ],
+  },
+  {
+    category: 'BOX ALL',
+    items: [
+      { id: 71, name: '7" BOXES', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 72, name: '10" BOXES', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 73, name: '14" BOXES', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 74, name: '24" EXTRA LARGE BOX', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 75, name: 'GARLIC BREAD BOXES', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 76, name: 'WRAPPER', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 77, name: 'CHOCOLAVA BOX', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 78, name: 'BURGER BOX', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 79, name: 'SANDWICH', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      { id: 80, name: 'BURGISZA BOX', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+    ],
+  },
+  {
+    category: 'DISPOSABLE ITEM',
+    items: [
+        { id: 81, name: 'CARRY BAG SMALL', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 82, name: 'CARRY BAG MEDIUM', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 83, name: 'GARBAGE BAG', uom: 'KG.', opening: '', receiving: '', closing: '' },
+        { id: 84, name: 'DISPOSIBLE CAP', uom: 'PKT.', opening: '', receiving: '', closing: '' },
+        { id: 85, name: '300 CONTAINER', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 86, name: 'CHOCOLAVA CUP', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 87, name: 'PASTA CONTAINER WITH LIDS', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 88, name: 'DISPOSIBLE GLASS', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 89, name: 'DISPOSL. SHAKE GLASS', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 90, name: 'SPOONS', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 91, name: 'FORKS', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 92, name: 'STROWS', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 93, name: 'BUTTER PAPER', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 94, name: 'PRINT ROLL', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 95, name: 'NAPKINS', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 96, name: 'PIZZA STOOL', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 97, name: 'TREY PAPER', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 98, name: 'SILVER FOIL', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 99, name: 'HAND GLOVES', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 100, name: 'MENU CARD', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+    ],
+  },
+  {
+      category: 'DIP',
+      items: [
+        { id: 101, name: 'SPICY DIP', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 102, name: 'PIRI PIRI DIP', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 103, name: 'CHEESY DIP', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      ]
+  },
+  {
+      category: 'OTHERS',
+      items: [
+        { id: 104, name: 'L.P.G CYLENDER', uom: 'KG.', opening: '', receiving: '', closing: '' },
+        { id: 105, name: 'PETROL', uom: 'LTR.', opening: '', receiving: '', closing: '' },
+        { id: 106, name: 'ELECTRICITY', uom: 'UNIT', opening: '', receiving: '', closing: '' },
+      ]
+  },
+  {
+      category: 'DESSERT',
+      items: [
+        { id: 107, name: 'CHOCO LAVA PRE-MIX', uom: 'KG.', opening: '', receiving: '', closing: '' },
+        { id: 108, name: 'DARK CHOCOLATE', uom: 'KG.', opening: '', receiving: '', closing: '' },
+        { id: 109, name: 'CHOCOLAVA', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      ]
+  },
+  {
+      category: 'BREADS & MISC',
+      items: [
+        { id: 110, name: 'BREADS', uom: 'KG.', opening: '', receiving: '', closing: '' },
+        { id: 111, name: 'BURGER', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+        { id: 112, name: '', uom: 'COUNT', opening: '', receiving: '', closing: '' },
+      ]
+  },
+];
