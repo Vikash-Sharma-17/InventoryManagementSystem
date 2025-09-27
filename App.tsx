@@ -184,7 +184,7 @@ const App: React.FC = () => {
         const closing = parseFloat(String(item.closing)) || 0;
         const usage = opening + receiving - closing;
         if (usage > 0 && item.name) {
-          report += `- ${item.name}: ${usage.toFixed(2)} ${item.uom}\n`;
+          report += `- ${item.name}: ${item.closing} ${item.uom}\n`;
           itemsUsed++;
         }
       });
